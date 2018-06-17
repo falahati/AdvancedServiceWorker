@@ -1,0 +1,34 @@
+﻿{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "emitDecoratorMetadata": false,
+    "lib": [],
+    "module": "none",
+    "noEmitOnError": false,
+    "noImplicitAny": false,
+    "outFile": "./dist/asw.js",
+    "removeComments": true,
+    "sourceMap": true,
+    "target": "es6"
+  },
+  "files": [
+    "src/Condition.ts",
+    "src/Strategies.ts",
+    "src/Rule.ts",
+    "src/Options.ts",
+    "src/ActionTypes.ts",
+    "src/Action.ts",
+    "src/Message.ts",
+    "src/RequestMessage.ts",
+    "src/ResponseMessage.ts",
+    "src/Actions/Broadcast.ts",
+    "src/Actions/ClearCache.ts",
+    "src/Actions/Notification.ts",
+    "src/Actions/Preload.ts",
+    "src/BrowserDatabase.ts",
+    "src/BrowserCache.ts",
+    "src/Controller.ts",
+    "src/FetchRequest.ts",
+    "src/ServiceWorker.ts"
+  ]
+}

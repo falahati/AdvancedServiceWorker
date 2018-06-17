@@ -1,0 +1,31 @@
+{
+  "name": "advanced-service-worker",
+  "version": "0.6.0",
+  "description": "A customizable and dynamic, yet simple service worker for your website",
+  "homepage": "https://github.com/falahati/AdvancedServiceWorker",
+  "browser": "",
+  "dependencies": {
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-minify": "^3.0.2",
+    "gulp-typescript": "^5.0.0-alpha.1",
+    "typescript": "^2.9.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp build"
+  },
+  "files": [
+    "./dist/asw.js",
+    "./dist/asw.min.js"
+  ],
+  "repository" :
+  { 
+    "type" : "git",
+    "url" : "https://github.com/falahati/AdvancedServiceWorker"
+  },
+  "author": "Soroush Falahati",
+  "license": "MIT"
+}
