@@ -32,7 +32,7 @@ namespace AdvancedServiceWorker {
         constructor(optionsObject: Partial<Options>) {
             this.options = new Options(optionsObject);
             this.eventElement = document.createElement("eventElement");
-            Controller.addEventListener("message",
+            Controller.addGlobalEventListener("message",
                 (e: CustomEvent<ServiceWorkerMessageEvent>) => {
                     var message = e.detail.data as Message;
                     if (message.scope === this.options.scope) {
@@ -41,7 +41,7 @@ namespace AdvancedServiceWorker {
                 });
         }
 
-        static addEventListener<TK extends keyof {
+        static addGlobalEventListener<TK extends keyof {
             "controllerchange": CustomEvent<Event>;
             "message": CustomEvent<ServiceWorkerMessageEvent>;
             "messageerror": CustomEvent<MessageEvent>;

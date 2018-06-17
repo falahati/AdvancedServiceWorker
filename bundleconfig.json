@@ -1,0 +1,8 @@
+[
+  {
+    "outputFileName": "dist/asw.min.js",
+    "inputFiles": [
+      "dist/asw.js"
+    ]
+  }
+]

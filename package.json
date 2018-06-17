@@ -21,10 +21,9 @@
     "./dist/asw.js",
     "./dist/asw.min.js"
   ],
-  "repository" :
-  { 
-    "type" : "git",
-    "url" : "https://github.com/falahati/AdvancedServiceWorker"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/falahati/AdvancedServiceWorker"
   },
   "author": "Soroush Falahati",
   "license": "MIT"
